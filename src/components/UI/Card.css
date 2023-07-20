@@ -1,0 +1,15 @@
+.card {
+  /* border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 4rem 1rem; */
+  /* text-align: center; */
+  position: relative;
+  background: #211d35;
+  /* box-shadow: ; */
+  height: 25rem;
+  width: 20rem;
+  padding: 3.5rem 0.5rem 1.25rem 1.5rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  transition: 0.3s;
+}

@@ -1,0 +1,51 @@
+.service_section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+.service_title {
+  text-align: center;
+  margin: 2rem 0;
+}
+.service_title h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+.service_title p {
+  font-size: 24px;
+  font-weight: 500;
+}
+.service_cards {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  flex-wrap: wrap;
+}
+.service__title {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 1rem 0;
+}
+.card__service {
+  height: 10rem;
+}
+.service__para {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 25px;
+  margin-top: 1.5rem;
+  text-align: justify;
+}
+.service__technologies {
+  display: flex;
+  gap: 1rem;
+}
+@media (min-width: 425px) {
+  .service_section {
+    margin-left: 0;
+  }
+}

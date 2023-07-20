@@ -1,0 +1,99 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #191627;
+  --primary-color-backgroud: #191627;
+  --secondary-color-backgroud: #ffff;
+  --primary-color-text: rgba(255, 255, 255, 0.87);
+  --secondary-color-text: #000;
+  --button-primary-color: #0caa93;
+  --card-primary-color: #211d35;
+  --card-secondary-color: #cccccc7a;
+  --animate-duration: 1s;
+  --animate-delay: 1s;
+  --animate-repeat: 1;
+  --body-font: "Poppins", sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+a {
+  text-decoration: none;
+  /* color: var(--primary-color-text); */
+}
+.a-dark {
+  color: var(--primary-color-text);
+}
+.a-light {
+  color: var(--secondary-color-text);
+}
+body .dark-theme {
+  background: var(--primary-color-backgroud);
+  color: var(--primary-color-text);
+}
+body .light-theme {
+  background: var(--secondary-color-backgroud);
+  color: var(--secondary-color-text);
+}
+
+.footer__Background_dark {
+  background: var(--button-primary-color);
+  color: var(--primary-color-text);
+}
+.footer__Background_light {
+  background: #000;
+  color: var(--secondary-color-backgroud);
+}
+.card-dark-theme {
+  background: var(--card-primary-color);
+}
+.card-dark-theme:hover {
+  box-shadow: -1px 1px 11px 4px rgba(242, 235, 235, 0.75);
+  -webkit-box-shadow: -1px 1px 11px 4px rgba(242, 235, 235, 0.75);
+  -moz-box-shadow: -1px 1px 11px 4px rgba(242, 235, 235, 0.75);
+  transition: 1s ease-in-out;
+}
+.card-light-theme {
+  background: var(--card-secondary-color);
+  color: var(--secondary-color-text);
+}
+.card-light-theme:hover {
+  box-shadow: -1px 1px 11px 4px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px 1px 11px 4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 1px 11px 4px rgba(0, 0, 0, 0.75);
+  transition: 1s ease-in-out;
+}
+.contact-light-theme {
+  background: var(--card-secondary-color);
+  color: var(--secondary-color-text);
+  color: #000;
+}
+.contact-dark-theme {
+  background: var(--card-primary-color);
+  color: var(--primary-color-text);
+}
+.button-dark-theme {
+  color: var(--primary-color-text);
+}
+.button-light-theme {
+  color: var(--primary-color-text);
+}
+.button-light-theme:hover {
+  color: var(--secondary-color-text);
+}
